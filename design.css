@@ -1,0 +1,236 @@
+body{
+    background-color:rgb(32, 32, 32);
+    background-image: url('yout.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+header{
+    display: flex;
+    place-content: center;
+    font-size: xx-large;
+    
+}
+.underline{
+    color: darkseagreen;
+}
+h2{
+    color:greenyellow;
+    font-family:cursive;
+}
+.orange{
+    color: orange;
+    font-size: xx-large;
+}
+.white{
+    color: white;
+    font-size: xx-large;
+}
+.green{
+    color: green;
+    font-size: xx-large;
+}
+h3{
+    font-size: large;
+    color: black;
+    font-family:cursive;
+}
+img{
+    border: 3px solid #0000;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+}
+summary{
+    cursor:pointer;
+    font-family: cursive;
+    color: lightskyblue;
+}
+li{
+    color: aqua;
+}
+.black{
+    color: black;
+}
+.red1{
+    max-width: 500px;
+    background-color:#85ded8;
+    box-shadow: 2px 2px 8px;
+    padding: 10px;
+    background-image: url('news.jpg');
+    background-size: cover;
+}
+.red1:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+.red2{
+    max-width: 500px;
+    background-color:#85ded8;
+    box-shadow: 2px 2px 8px;
+    padding: 10px;
+    background-image: url('information.jpg');
+    background-size: cover;
+}
+.red2:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+.red3{
+    max-width: 500px;
+    background-color:#85ded8;
+    box-shadow: 2px 2px 8px;
+    padding: 10px;
+    background-image: url('game.jpeg');
+    background-size: cover;
+}
+.red3:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+.tell{
+    color: rgb(255, 189, 47);
+}
+.click{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+}
+.lembo1{
+    max-width: 500px;
+    background-color: #85ded8;
+    box-shadow: 2px 2px 8px;
+    padding: 10px;
+    background-image: url('stand up.jpg');
+    background-size: cover;
+}
+.lembo1:hover{
+    background-color: rgb(252, 252, 87);
+    color: violet;
+}
+.lembo2{
+    max-width: 500px;
+    background-color: #85ded8;
+    box-shadow: 2px 2px 8px ;
+    padding: 10px;
+    background-image: url('anime.jpg');
+    background-size: cover;
+}
+.lembo2:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.ferrari1{
+    max-width: 500px;
+    background-color: #85ded8;
+    box-shadow: 2px 2px 8px;
+    padding: 10px;
+    background-image: url('vlog.jpg');
+    background-size: cover;
+}
+.ferrari1:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+.ferrari2{
+    max-width: 500px;
+    background-color: #85ded8;
+    box-shadow: 2px 2px 8px ;
+    padding: 10px;
+    background-image: url('television.jpg');
+    background-size: cover;
+}
+.ferrari2:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+.ferrari3{
+    max-width: 500px;
+    background-color: #85ded8;
+    box-shadow: 2px 2px 8px;
+    padding: 10px;
+    background-image: url('vines.avif');
+    background-size: cover;
+}
+.ferrari3:hover{
+    background-color: rgb(252, 252, 87);
+    color: yellow;
+}
+@media screen and (max-width: 600px) {
+
+    main{
+        font-size:small;
+    }
+    
+    .container{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px
+    }
+    .red1{
+        background-size: cover;
+        
+    }
+    .red1 img{
+        height: 100px;
+        width: 150px;
+    }
+    .red2{
+        background-size: cover;
+    }
+    .red3{
+        margin-bottom: 50px;
+        background-size: cover;
+    }
+    .container2{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px
+    }
+    .lembo1{
+        background-size: cover;
+    }
+    .lembo2{
+        margin-bottom: 50px;
+        background-size: cover;
+    }
+    .container3{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px
+    }
+    .ferrari1{
+        background-size: cover;
+    }
+    .ferrari2{
+        background-size: cover;
+    }
+    .ferrari3{
+        background-size: cover;
+    }
+    iframe{
+        width: 336px;
+        height: 189px;
+    }
+    
+    
+    
+    
+
+    
+}
